@@ -112,6 +112,9 @@ BOARD_LEGACY_NL80211_STA_EVENTS := true
 TARGET_PROVIDES_LIBLIGHT := true
 TARGET_PROVIDES_LIBLIGHTS := true
 
+# Power
+TARGET_USES_CM_POWERHAL := true
+
 # Hardware tunables
 BOARD_HARDWARE_CLASS := device/htc/msm8660-common/cmhw
 
